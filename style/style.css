@@ -1,0 +1,311 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+/*Общий*/
+.all{
+	width: 100vw;
+	height: 73.26vw;
+	background: url('../image/Shape 2 copy.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.header1{
+	width: 100vw;
+	height: 3.663vw;
+	background-color: #f1f1f1;
+}
+.header2{
+	width: 100vw;
+	height: 3.663vw;
+	background-color: #f6f6f6;
+	margin-top: -0.7326vw;
+}
+/*Список навигации*/
+.header2>ul{
+	margin-left: 3.326vw;
+}
+.header2>ul>li{
+	display: block;
+    float: left;
+    width: 7.326vw;
+	color: #000000;
+	list-style-type: none;
+	margin-left: 2.9304vw;
+	padding-top: 1.0989vw;
+    font-size: 1.4652vw;
+	text-align: center;
+}
+.jello{
+    animation-name: none;
+}
+/*При наведении на меню*/
+.header2>ul>.jello:nth-of-type(1):hover,
+.header2>ul>.jello:nth-of-type(2):hover,
+.header2>ul>.jello:nth-of-type(3):hover,
+.header2>ul>.jello:nth-of-type(4):hover,
+.header2>ul>.jello:nth-of-type(5):hover{
+    color: tomato;
+    animation-name: jello;
+}
+
+/*Квадратики с списком*/
+.header3{
+	width: 100vw;
+	height: 1.8315vw;
+	background-color: #f1f1f1;
+	margin-top: -0.7326vw;
+}
+.header3>ul{
+	margin-left: 3.326vw;
+}
+.header3>ul>li{
+    display: block;
+    float: left;
+	width: 7.326vw;
+	height: 1.8315vw;
+	list-style-type: none;
+	margin-left: 2.9304vw;
+}
+.header3>ul>li:nth-of-type(1){
+	background-color: #14aef4;
+}
+.header3>ul>li:nth-of-type(2){
+	background-color: #febf24;
+}
+.header3>ul>li:nth-of-type(3){
+	background-color: #89c734;
+}
+.header3>ul>li:nth-of-type(4){
+	background-color: #ef141c;
+}
+.header3>ul>li:nth-of-type(5){
+	background-color: #832878;
+}
+/*Блок с собакой*/
+.dog{
+	width: 68.131868vw;
+	height: 25.641025vw;
+	margin: 0vw 20.304029vw;
+	position: relative;
+	margin-top: 0.674vw;
+	z-index: 2;
+}
+.dog>img:nth-child(1){
+    width: 5.7875vw;
+    height: 6.5934vw;
+	margin-left: 21.399267vw;
+    position: absolute;
+    margin-top: 13.4065vw;
+}
+.dog>img:nth-child(2){
+    width: 21.7582vw;
+    height: 5.6410vw;
+	margin-left: 24.98901vw;
+	margin-top: 14.65201vw;
+	position: absolute;
+}
+.dog>img:nth-child(3){
+    width: 10.4761vw;
+    height: 0.7326vw;
+	margin-top: 19.70695vw;
+    margin-left: 35.465201vw;
+	position: absolute;
+}
+.dog>img:nth-child(4){
+    margin-left: 36.663vw;
+    position: absolute;
+    width: 33.8681vw;
+    height: 49.8901vw;
+    margin-top: -3vw;
+}
+.rubberBand, .rotateIn{
+    animation-name: none;
+}
+.dog>img:nth-child(2):hover{
+    animation-name: rotateIn;
+}
+.dog>img:nth-child(4):hover{
+    animation-name: rubberBand;
+}
+
+/*Блок новостей*/
+.news {
+    width: 82.3443vw;
+    height: 18.3150vw;
+    background-color: #b0dd36;
+    position: absolute;
+    z-index: 3;
+    margin-left: 8.7912vw;
+    margin-top: -3.3699vw;
+    border-radius: 5.8608vw;
+    opacity: 0.9;
+    box-shadow: 0vw 1.3919vw 0.5860vw rgba(206, 206, 206, 0.8);
+    z-index: 3;
+    animation-name: rotateIn;
+}
+.news>div:nth-child(1), .news>div:nth-child(2){
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.news>div:nth-child(1)>div:nth-child(1), .news>div:nth-child(1)>div:nth-child(2){
+	float: left;
+}
+
+.news>div:nth-child(1)>div:nth-child(1)>img:nth-of-type(1){/*для первого изображения*/
+    width: 14.65201vw;
+    height: 14.65201vw;
+    position: absolute;
+    margin-top: 2.49084vw;
+    margin-left: 1.97802vw;
+}
+.news>div:nth-child(1)>div:nth-child(2)>img:nth-of-type(1) {
+    width: 6.7399vw;
+}
+
+.news>div:nth-child(1)>div:nth-child(2) {
+    width: 17.58241vw;
+    height: 14.65201vw;
+    position: absolute;
+    margin-top: 3.5897vw;
+    margin-left: 19.1941vw;
+}
+.news>div:nth-child(1)>div:nth-child(2)>img:nth-of-type(2) {
+    width: 10.2564vw;
+    margin-top: 2.4908vw;
+}
+
+/*Второй подблок*/
+.news>div:nth-child(2)>div:nth-child(1)>img:nth-of-type(1) {
+    width: 19.4139vw;
+    height: 14.6520vw;
+    position: absolute;
+    margin-top: 2.4908vw;
+    margin-left: 0vw;
+}
+.news>div:nth-child(2)>div:nth-child(2)>img:nth-of-type(1) {
+    width: 10.9890vw;
+}
+.news>div:nth-child(2)>div:nth-child(2) {  /*Написный текст там где news*/
+    width: 17.5824vw;
+    height: 14.65201vw;
+    position: absolute;
+    margin-top: 2.6373vw;;
+    margin-left: 17.80219vw;
+}
+.news>div:nth-child(2)>div:nth-child(2)>p, .news>div:nth-child(1)>div:nth-child(2){
+    font-size: 1.1721vw;
+}
+
+
+
+.news>div:nth-child(2)>div:nth-child(2)>img:nth-of-type(2) {
+    width: 9.5970vw;
+    margin-top: 2.4908vw;
+}
+/*Синий блок*/
+.blue{
+    width: 82.3443vw;
+    height: 35.3846vw;
+    border-radius: 5.8608vw;
+    background-color: #54b1d2;
+    margin-top: 11.13553vw;
+    position: absolute;
+    z-index: 2;
+    margin-left: 8.79120vw;
+    opacity: 0.9;
+}
+.blue>div{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+.blue>div:nth-of-type(1)>img:nth-of-type(1),
+.blue>div:nth-of-type(2)>img:nth-of-type(1){
+	margin-top: 6.30036vw;
+    margin-left: 5.86080vw;
+    width: 21.97802vw;
+}
+.blue>div:nth-of-type(1)>div:nth-of-type(1), .blue>div:nth-of-type(1)>div:nth-of-type(2),
+.blue>div:nth-of-type(1)>div:nth-of-type(3){
+	width: 35.89743vw;
+	height: 6.5934vw;
+	margin-left: 5.8608vw;
+	margin-top: 0.7326vw;
+}
+.blue>div:nth-of-type(1)>div:nth-of-type(1)>img{
+    width: 7.17948vw;
+    height: 10.8424vw;
+    display: inline-block;
+}
+.blue>div:nth-of-type(1)>div:nth-of-type(2)>img:nth-of-type(1){
+    width: 7.17948vw;
+    height: 10.8424vw;
+    display: block;
+    margin-top: -2.1245vw;
+    margin-left: 0.29304vw;
+}
+.blue>div:nth-of-type(1)>div:nth-of-type(1)>p{
+    width: 26.6666vw;
+    height: auto;
+    margin-left: 7.326vw;
+    font-size: 1.4652vw;
+    display: block;
+    margin-top: -10.03663vw;
+    position: absolute;
+    color: #ffffff;
+}
+
+.blue>div:nth-of-type(1)>div:nth-of-type(2)>p{
+	width: 26.6666vw;
+    height: auto;
+    margin-left: 7.326vw;
+    font-size: 1.4652vw;
+    display: block;
+    margin-top: -7.61904vw;
+    position: absolute;
+    color: #ffffff;
+}
+.blue>div:nth-of-type(1)>div:nth-of-type(1)>p>b,
+.blue>div:nth-of-type(1)>div:nth-of-type(2)>p>b{
+    color: #000000;
+}
+.blue>div:nth-of-type(1)>div:nth-of-type(3)>div{
+    width: 32.2344vw;
+    height: 2.1978vw;
+    margin-left: 0.7326vw;
+}
+.blue>div:nth-of-type(1)>div:nth-of-type(3)>div>img{
+    width: 1.4652vw;
+    height: 1.4652vw;
+    margin-top: 3.07692vw;
+}
+.blue>div:nth-of-type(1)>div:nth-of-type(3)>div>p{
+	display: block;
+    margin-left: 2.3443vw;
+    margin-top: -1.53846vw;
+    font-size: 1.4652vw;
+    color: #ffffff;
+}
+
+/*Правая сторона голубого*/
+.blue>div:nth-of-type(2)>img:nth-of-type(2){
+	width: 29.3772vw;
+    height: 19.4139vw;
+    margin-left: 5.1282vw;
+    margin-top: -1.61172vw;
+}
+.blue>div:nth-of-type(2)>img:nth-of-type(3) {
+    width: 26.08058vw;
+    height: 6.7399vw;
+    margin-left: 6.5934vw;
+    margin-top: -3.44322vw;
+}
+.blue>div:nth-of-type(2)>img:nth-of-type(4) {
+    position: absolute;
+    margin-top: 5.27472vw;
+    width: 9.59706vw;
+    margin-left: -9.30402vw;
+}
